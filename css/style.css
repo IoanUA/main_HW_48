@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* ------------navigation */
@@ -190,4 +190,78 @@ body {
   font-size: 16px;
   line-height: calc(20 / 16);
   color: var(--first-title-color);
+}
+/* ---------------------job-video-section------------- */
+.job {
+  background-color: var(--first-text-color);
+}
+.job-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--first-title-color);
+}
+.job-text {
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--second-text-color);
+}
+.subscribe {
+  background-color: wheat;
+}
+.subscribe-title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.22;
+  text-align: center;
+  color: var(--second-title-color);
+}
+.subscribe-text {
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--first-text-color);
+}
+.subscribe-butt {
+  color: var(--button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  width: 190px;
+  height: 45px;
+  left: 1014px;
+  top: 5053px;
+  background: #4985ff;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 0px 30px 30px 0px;
+}
+.subscribe-info {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.61;
+  text-align: center;
+  color: var(--first-text-color);
+}
+.footer-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--second-title-color);
+}
+.footer-list-item {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.57;
+  color: var(--first-text-color);
+}
+.foot-over {
+  font-size: 13px;
+  line-height: 1.61;
+  text-align: center;
+  color: var(--first-text-color);
 }
